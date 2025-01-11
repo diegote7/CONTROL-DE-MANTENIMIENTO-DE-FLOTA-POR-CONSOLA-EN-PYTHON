@@ -1,111 +1,17 @@
-# PROYECTO-PROGRAMACION-MENU-POR-CONSOLA-EN-PYTHON
+# CONTROL DE MANTENIMIENTO DE FLOTA POR CONSOLA EN PYTHON
 
-# **Proyecto final del Módulo Programador**  
+[![Designer-4.jpg](https://i.postimg.cc/1zWNpQXY/Designer-4.jpg)](https://postimg.cc/kVb4mLxx)
 
-<center><img src="./assets/visuales/logo pythonmysql.png" width="800"></center>  
+Un emprendimiento rural necesita un sistema para gestionar el mantenimiento preventivo y correctivo de su maquinaria (tractores, cosechadoras y camiones), ya sea trabajando en su campo o en servicios externos.
 
-## Objetivo  
+El sistema:
 
-Desarrollar una pequeña aplicación que demuestre la integración de conceptos de programación y bases de datos, y que aborde aspectos éticos y profesionales según la normativa vigente en la provincia de Córdoba.  
+Mantenimiento preventivo: Controla las horas trabajadas de cada máquina y genera alertas según el manual de taller para realizar los mantenimientos periódicos.
 
-## Parte 1 - Integradora: Definición de la Temática  
+Gestión de repuestos: Lleva el estado del stock de repuestos, con alertas semanales para reponer cantidades mínimas.
 
-## Consigna  
+Registro de trabajo: Registra las horas trabajadas por máquina y operario al final de cada jornada, generando un historial para análisis de roturas o desgastes prematuros.
 
-Elige una temática para tu aplicación que te resulte interesante y que te permita demostrar tus habilidades de programación y diseño de bases de datos. Escribe una breve descripción (máximo 150 palabras) de tu aplicación, asegurándote de que esta permita llevar a cabo las siguientes partes del proyecto.   
-Para ello pueden reutilizar el desarrollo realizado en la evidencia de aprendizaje 2.  
+Gestión de operarios: Permite registrar operarios que conducen máquinas o realizan mantenimientos, sean internos o externos.
 
-## Parte 2 - Programación: Desarrollo de aplicación por consola en Python  
-
-## Consigna  
-
-Crea un programa en Python utilizando POO que presente un menú de opciones al usuario. Cada opción debe corresponder a una funcionalidad específica de tu aplicación. Cuando el usuario seleccione una opción de dicho menú, se debe invocar al método que ejecute las consultas sobre la BD.
-**Ejemplo de Menú:**  
-1. Registrar nuevo amigo
-2. Registrar nuevo libro
-3. Registrar préstamo de libro
-4. Consultar libros prestados y no devueltos  
-
-Para esto se deberá crear una clase que se encargue de la conexión y las operaciones con la base de datos MySQL.  
-
-Implementa métodos en esta clase para mostrar el menú al usuario y permitir que elija una opción.  
-Los métodos deben realizar las operaciones de insertar, consultar datos y consultas multi-tabla de acuerdo a la temática elegida.
-
-El menú debe repetir el proceso hasta que el usuario decida salir del programa.  
-
-## Parte 3 - Base de Datos: Diseño y Normalización  
-
-## Consigna  
-
-1. Diseña una base de datos sencilla relacionada con la temática de tu aplicación. La base de datos debe constar de al menos 3 tablas y estar correctamente normalizada hasta la tercera forma normal (3FN).   
-Presenta el modelo relacional de la base de datos.
-2. Crea la base de datos en un DBMS, se sugiere MySQL.
-3. Escriba las consultas SQL que permiten interactuar con la base de datos ejecutando las funciones definidas en el menú de opciones.   
-En las consultas se debe contemplar lo siguiente:  
-
-a. Que exista al menos 1 consulta que permita insertar datos.  
-
-b. Que exista al menos 1 consulta que permita obtener datos.  
-
-c. Que exista al menos 1 consulta multitabla.  
-
-Las consultas realizadas deben tener coherencia con la situación problemática, por ejemplo mostrar los datos ordenados de modo que tenga sentido, o utilizar funciones de agregación si es necesario (si tiene sentido para nuestro enunciado por ejemplo mostrar precios con y sin iva, podemos usar funciones de agregación para agregar ese valor directamente desde la consulta SQL y no dejar que el usuario deba
-calcular el costo).  
-
-## Parte 4 - Aspectos Éticos y Profesionales  
-
-## Consigna  
-
-Investiga y reflexiona sobre la ética profesional y el ejercicio profesional de las ciencias informáticas en la provincia de Córdoba, basándote en la Ley 7642 y el Estatuto de Regulación del Consejo Profesional de Ciencias Informáticas de Córdoba. Redacta un informe breve (máximo 300 palabras) donde describas la importancia de estos aspectos en el desarrollo de tu proyecto.  
-
-**Puntos a cubrir:**  
-
-La importancia de la ética profesional en el desarrollo de software.  
-
-Cómo se aplican los principios de la Ley 7642 en tu proyecto.  
-
-Reflexiones sobre el Estatuto de Regulación del Consejo Profesional de Ciencias Informáticas de Córdoba y su relevancia para tu práctica profesional.  
-
-## Pautas de grupo y entregable  
-
-El presente trabajo práctico final integrador, se plantea para realizarse en grupo de hasta 4 alumnos. Una vez confeccionado se debe entregar un archivo en PDF que contenga lo siguiente:  
-
-1. Código fuente en Python que incluya la temática seleccionada a desarrollar, con las respectivas consultas a la base de datos.  
-
-2. Modelo relacional normalizado en 3 FN  
-
-3. Consultas SQL.  
-
-4. Informé de aspectos éticos y profesionales  
-
-Se deberá entregar una ficha informativa que incluya:  
-
-● Título del proyecto  
-
-● Nombres completos de los integrantes del grupo  
-
-● Fecha de entrega  
-
-● Relato de problemática planteada (máximo 200 palabras)  
-
-Extensión: El informe final deberá tener una extensión de entre 10 y 20 páginas, escritas en letra Arial 12, a doble espacio, con márgenes de 2,5 cm.  
-
-Formato: El proyecto deberá presentarse en formato digital (PDF).  
-
-Plazo máximo de entrega: 10 de Junio de 2024  
-
-Cada grupo deberá presentar su proyecto ante los docentes del módulo. La defensa oral tendrá una duración de 15 minutos por grupo y se evaluará la capacidad de los integrantes para explicar y defender su trabajo de manera clara y concisa.   
-Los integrantes del grupo deberán exponer de manera conjunta, distribuyendo el tiempo de manera equitativa.
-Se evaluará la presentación y funcionamiento del proyecto, la capacidad de respuesta a las preguntas y la defensa general del trabajo.  
-
-
-# Organizacion de la estructura del repositorio
-
-El proyecto sera almacenado en un repositorio en GitHub segun la siguiente estructura de carpetas:
-
-
-1-investigación: aqui se guarda toda la documemtación recolectada para el desarrollo del proyecto
-
-2-prototipos: Aqui se guarda el programa en python, la base de datos, y los documentos entregables.
-
-3-presentación: Aqui se guarda el informe final del proyecto.
+Mantenimientos correctivos: Registra eventos no planificados con detalles como tipo de rotura, repuestos usados, causa, operario a cargo y medidas preventivas.
